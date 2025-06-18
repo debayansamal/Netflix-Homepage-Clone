@@ -1,6 +1,6 @@
 # Netflix-Homepage-Clone
 
-##Live demo: https://debayansamal.github.io/Netflix-Homepage-Clone/
+Live demo: https://debayansamal.github.io/Netflix-Homepage-Clone/
 
 A responsive Netflix landing page clone built with HTML and CSS. 
 It's a practice project to improve my frontend skills.
