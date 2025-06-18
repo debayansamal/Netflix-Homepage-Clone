@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@media (max-width: 768px) {
+  .inputgp{
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+main{
+    background-image: url(Assests/images/banner.jpg);
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.a1{
+    height: 80vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.a2{
+    color: aliceblue;
+    font-weight: bolder;
+    width: 75vw;
+    margin: auto;
+    height: 15vh;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav span img{
+    width: 10vw;
+    position: relative;
+    z-index: 100;
+    
+}
+.buteng {
+  margin: 0px 1vw;
+  color: white;
+  background-color: black;
+  border: 0.2px solid white;
+  padding: 5px 30px;
+  border-radius: 5px;
+  font-weight: 400;
+
+}
+
+.a3 button:nth-child(2){
+    background-color: red;
+
+    border: solid white;
+    border-radius: 5px;
+    border-style: none;
+    padding: 7px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.a3 button:hover{
+    background-color: darkred;
+}
+
+.sgn{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.a3{
+    z-index: 2000;
+}
+
+.con{
+    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 700px; 
+    margin: auto;
+}
+.cc{
+    padding: 10px;
+    z-index: 100;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.fontb{
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 56px;
+  line-height: 70px;
+  margin-top: 50px;
+  
+}
+
+.cc:nth-child(2){
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.cc:nth-child(3){
+    font-weight: 400;
+    
+
+}
+.b2{
+     width: 100%;
+   max-width: 400px;
+   box-sizing: border-box; 
+    height: 7vh;
+    border: 0.01px solid white;
+    border-radius: 4px;
+    background-color: black;
+    opacity: 0.7;
+    font-size: large;
+    font-weight: bolder;
+    padding-left: 20px;
+    color: white;
+
+    
+    
+}
+.b1{
+    width: 15vw;
+    height: 4vh;
+    border: solid black;
+    background-color: red;
+    border-style: none;
+    border-radius: 4px;
+    padding: 12px;
+
+    cursor: pointer;
+    
+}
+
+.b11{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: large;
+}
+.inputgp {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.b2 {
+  flex: 1 1 250px;
+}
+
+.b1 {
+  flex: 0 0 auto;
+}
+.b1:hover{
+    background-color: rgb(138, 0, 0);
+}
+.cp1{
+    width: 100vw;
+    height: 20vh;
+    position: relative;
+}
+.grid{
+    height: 40vh;
+    background-color: black;
+    margin-top: -7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid1 {
+  background-color: black;
+  height: 35vh;
+  width: 75vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 0.2fr; 
+  gap: 20px; 
+}
+
+.fitt {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; 
+  border: solid black;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.fitt:hover{
+    transform: scale(1.1) translateY(-10px);
+    transition: 0.7s;
+}
+
+.fitt img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  display: block;
+}
+.cur{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.cur button{
+    border: solid black;
+    width: 70%;
+    height: 50%;
+    background-color: rgb(40, 37, 37);
+    border-radius: 8px;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+.cur button:hover{
+    background-color: rgb(79, 77, 77);
+}
+
+.cp{
+    image-orientation: from-image;
+}
+
+.second{
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.word{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    padding-top: 30px;
+    padding-left: 12%;
+    background-color: black;
+}
+.grid2{
+  background-color: rgb(0, 0, 0);
+  height: 45vh;
+  width: 75vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  gap: 20px; 
+  margin-top: -66px;
+
+}
+
+.c1:hover{
+    background-image: none;
+
+}
+
+.c1{
+  width: 100%;
+  height: 100%;
+  overflow: hidden; 
+  border: solid black;
+  border-radius: 15px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(Assests/images/box\ backgroud.png);
+  background-size: contain;
+
+}
+
+.w1{
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    padding: 10px 20px;
+}
+.w2{
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.w3{
+    width: 60px;
+    align-self: flex-end;
+    padding: 5px;
+    
+}
+
+.last{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.last1{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.final{
+    width: 70vw;
+    height: 13vh;
+    border: solid rgb(241, 241, 241);
+    background-color: rgb(55, 54, 54);
+    border-style: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    align-content: center;
+    padding: 0px 20px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+.final:hover{
+    background-color: rgb(78, 78, 78);
+}
+.foot{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 1fr;
+    padding: 40px 15%;
+    width: 100%;
+    
+    
+}
+.footitem{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.link{
+  color: #999; 
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.k1{
+    background-color: black;
+
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+    
+
+}
+
+.k2{
+        color: #999;
+        padding-left: 15%;
+        font-size: 16px;
+        font-weight: 400;
+        
+}
+
+.ending{
+    height: 70vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.e{
+    background-color: rgb(0, 0, 0);
+    width: 70vw;
+    height: 30vh;
+}
+.e2{
+  color: #999; 
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 400;
+  padding-top: 3%;
+}
+.butengg{
+  color: white;
+  background-color: black;
+  border: 0.2px solid white;
+  padding: 5px 30px;
+  border-radius: 5px;
+  font-weight: 400;
+}
+.e3{
+  color: #999; 
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: 400;
+  padding-top: 3%;
+}
+
+.e4{
+  color: #c5c5c5; 
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 400;
+  padding-top: 10%;
+}
+.bold{
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+
