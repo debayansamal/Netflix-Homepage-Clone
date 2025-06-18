@@ -5,12 +5,17 @@
     align-items: stretch;
   }
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:550px) {
+    .con{
         .fontb{
             font-size: 20px;
         }
-    }
-}
+        .cc{
+            font-size: 12px;
+        }
+        .b11{
+            padding-
+        } }}
 
 main{
     background-image: url(Assests/images/banner.jpg);
