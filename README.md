@@ -1,6 +1,6 @@
 # Netflix Landing Page Clone 
 
-Live demo: https://debayansamal.github.io/Netflix-Homepage-Clone/
+Live demo: https://webpageclonedebayansamal.netlify.app/
 
 This is a **Netflix landing page clone** built by Debayan Samal for learning purposes only.  
 It replicates Netflix’s look and feel using **HTML & CSS**.  
